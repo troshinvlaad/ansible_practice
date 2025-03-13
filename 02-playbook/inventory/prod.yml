@@ -4,14 +4,14 @@ clickhouse:
     clickhouse-01:
       ansible_connection: ssh
       ansible_ssh_user: admin
-      ansible_host: 158.160.159.221
+      ansible_host: 158.160.172.80
       ansible_private_key_file: ~/.ssh/id_ed25519
-      ansible_python_interpreter: /usr/bin/python3
+      ansible_python_interpreter: /usr/local/bin/python3.8
 
 vector:
   hosts:
     vector-01:
       ansible_connection: ssh
       ansible_ssh_user: admin
-      ansible_host: 158.160.130.73
+      ansible_host: 158.160.177.92
       ansible_private_key_file: ~/.ssh/id_ed25519
